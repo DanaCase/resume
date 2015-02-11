@@ -1,0 +1,52 @@
+.bgcolor {
+  background-color: #0e1f31; }
+
+body {
+  font-family: 'EB Garamond', serif;
+  color: #0b0a1a;
+  background-color: #fcfdf8; }
+
+a {
+  color: #263d43; }
+
+.header {
+  height: 20px; }
+
+.header2 {
+  min-height: 140px;
+  background-color: #f5f6ed;
+  border-bottom: 2px #3e5358 solid; }
+
+.centerParent {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.centerChild {
+  display: flex;
+  align-items: center; }
+
+h1 {
+  padding-left: 15px; }
+
+h2 {
+  padding-left: 15px; }
+
+h4 {
+  padding-left: 25px; }
+
+.lowerShadow {
+  box-shadow: 3px 3px 5px 6px #0e1420;
+  padding-bottom: 15px; }
+
+.upperShadow {
+  box-shadow: -3px -3px 5px 3px #0e1420; }
+
+.bullet {
+  font-size: 3em; }
+
+.date {
+  display: flex;
+  align-items: center; }
+
+/*# sourceMappingURL=dana.css.map */
