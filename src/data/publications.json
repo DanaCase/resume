@@ -1,0 +1,28 @@
+{
+  "publications":[
+    {
+      "title": "Mitochondrial Transfer by Photothermal Nanoblade Restores Metabolite Profile in Mammalian Cells.",
+      "authors":[
+        "Case D.*","Wu TH.*","Sagullo E.*","Zheng X.","Li Y.","TeSlaa T.","Patananan AN.","McCaffery JM.","Niazi K.","Braas D.","Koehler CM.","Graeber TG.","Chiou PY.", "Teitell MA." 
+      ],
+      "journal":"Cell Metabolism",
+      "pmid": 27166949
+    },
+    {
+      "title":"Single-cell time-course analysis of X-chromosome and pluripotency gene activation during reprogramming.",
+      "authors":[
+        "Pasque V.","Tchieu J.","Karnik R.","Uyeda M.","Sadhu Dimashkie A.","Case D.","Papp B.","Bonora G.","Patel S.","Ho R.","Schmidt R.","McKee R.","Sado T.","Tada T.", "Plath K."
+      ],
+      "journal":"Cell",
+      "pmid":25525883
+    },
+    {
+      "title": "Defining the nature of human pluripotent stem cell progeny.",
+      "authors":[
+        "Patterson M","Chan DN","Ha I","Case D","Cui Y","Van Handel B","Mikkola HK", "Lowry WE."
+      ],
+      "journal":"Cell Research",
+      "pmid": 21844894
+    }
+  ]
+}

@@ -1,10 +1,18 @@
 <template>
-  <div class="row">
-    <p> Dana Case </p>
-    <p> Web Developer, Bioinformatics Programmer, Molecular Biologist </p>
-    </br>
-    <p> 650 740 3780 </p>
-    <p> case.danal@gmail.com </p>
+  <div class="text-center contact-info">
+  	<div class="row">
+         <p><strong>Dana Case</strong></p>
+  	</div>
+  	<div class="row">
+  	  <p> Web Developer, Bioinformatics Programmer, Molecular Biologist </p>
+  	  </br>
+  	</div>
+  	  <div class="row">
+  	  	<p> 650 740 3780 </p>
+  	  </div>
+  	  <div class="row">
+  	  	<p> case.danal@gmail.com </p>
+  	  </div>
   </div>
 </template>
 
@@ -13,3 +21,9 @@
     name: 'contact'
   }
 </script>
+
+<style>
+.contact-info {
+  display: inline-block;
+}
+</style>

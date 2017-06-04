@@ -1,30 +1,26 @@
 <template>
   <resume-section title="Experience">
     <div slot="content">
-      <experiencePosition v-for='(position, index) in positions' v-bind:key='index' v-bind:position='position' ></experiencePosition>
+      <experienceSection  sectionTitle='Software Experience' v-bind:positions='positionSections.software' ></experienceSection>
+      <experienceSection  sectionTitle='Research Experience' v-bind:positions='positionSections.research' ></experienceSection>
     </div>
   </resume-section>
 </template>
 
 <script>
+import experience from '../../data/experience.json'
 import resumeSection from './ResumeSection'
-import experiencePosition from './ExperiencePosition'
+import experienceSection from './ExperienceSection'
 
 export default {
   name: 'experience',
   data: function () {
-    return {positions: myExperience}
+    return {positionSections: experience}
   },
   components: {
     resumeSection,
-    experiencePosition
+    experienceSection
   }
 }
 
-var myExperience = [{
-  summary: 'Feel free to Vmake this information itemized instead of a paragraph. To adjust the heading lines and shading, select the text and choose “send to back”. Then, manipulate the lines. When you’re finished, select them and choose “send to back”. The text will be back in front again. From now on, the text will be replaced with Bob Ross Lorem Ipsum. Enjoy',
-  date: 'Jan 2017 - present',
-  position: 'Senior Software Engineer, Bioinformatics',
-  company: 'Ambry Genetics'
-}]
 </script>
