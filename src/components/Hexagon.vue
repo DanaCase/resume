@@ -1,85 +1,85 @@
 <template>
-  <div class="hexagon">
-    <div class="inner">
-	<p class="text-center">Dana</p>
-	<p class="text-center">Case</p>
-    </div>
-  </div>
+      <div class="row">
+        
+        <svg id="hexagon" preserveAspectRatio="xMidYMin" :viewBox=points.viewBox :height=points.height :width=points.width>
+          <text :font-size=fontSizeFirst x="50%" :y=firstY alignment-baseline="middle" text-anchor="middle" font-family='Unna' font-style="italic" :fill=svgColor>DANA</text>
+          <text :font-size=fontSizeLast x="50%" :y=lastY alignment-baseline="middle" text-anchor="middle" font-family='Unna' font-style="italic" :fill=svgColor>CASE</text>
+
+          <polyline :stroke=svgColor fill="none" :stroke-width=accentStrokeWidth :points=points.topPathString></polyline>
+          <polyline :stroke=svgColor fill="none" :stroke-width=accentStrokeWidth :points=points.bottomPathString></polyline>
+          <polygon class="hex"  fill="none" :stroke=svgColor :stroke-width=strokeWidth :points=points.pathString alignment-baseline=middle></polygon>
+        
+        </svg>
+      </div>
 </template>
 
 <script>
   export default {
-    name: 'hexagon'
+    name: 'hexagon',
+    data: () => {
+      return {
+        points: new Points(300, 300 * Math.sqrt(3) / 2),
+        strokeWidth: 4.5,
+        accentStrokeWidth: 4,
+        svgColor: '#555'
+      }
+    },
+    computed: {
+      firstY: function () {
+        return this.points.height / 2 - (this.points.height / 15)
+      },
+      lastY: function () {
+        return this.firstY + this.fontSizeFirst
+      },
+      fontSizeFirst: function () {
+        return this.points.height * 0.18
+      },
+      fontSizeLast: function () {
+        return this.fontSizeFirst * 0.75
+      }
+    },
+    mounted: function () {
+      var width = window.getComputedStyle(this.$el.parentElement, null).getPropertyValue('width').slice(0, -2)
+      this.points = new Points(width, width)
+    }
+
+  }
+  function Points (height, width) {
+    function pathsToString (paths) {
+      var strings = paths.map((points) => points.join(','))
+      return strings.join(' ')
+    }
+
+    var [ pathHeight, pathWidth ] = [ height * 0.89, width * 0.78 ]
+    var [ offsetHeight, offsetWidth ] = [ (height - pathHeight) / 2, (width - pathWidth) / 2 ]
+    var path = [
+      [ pathWidth / 2 + offsetWidth, offsetHeight ],
+      [ pathWidth + offsetWidth, pathHeight * 0.25 + offsetHeight ],
+      [ pathWidth + offsetWidth, pathHeight * 0.75 + offsetHeight ],
+      [ pathWidth / 2 + offsetWidth, pathHeight + offsetHeight ],
+      [ offsetWidth, pathHeight * 0.75 + offsetHeight ],
+      [ offsetWidth, pathHeight * 0.25 + offsetHeight ]
+    ]
+    this.pathString = pathsToString(path)
+
+    var bottomPaths = [
+      [ path[2][0], path[2][1] - 10 ],
+      [ path[3][0], path[3][1] - 10 ],
+      [ path[4][0], path[4][1] - 10 ]
+    ]
+    this.bottomPathString = pathsToString(bottomPaths)
+
+    var topPaths = [
+      [ path[5][0], path[5][1] + 10 ],
+      [ path[0][0], path[0][1] + 10 ],
+      [ path[1][0], path[1][1] + 10 ]
+    ]
+    this.topPathString = pathsToString(topPaths)
+
+    this.viewBox = [ -2.5, -2.5, height, width ].join(',')
+
+    this.height = height
+    this.width = width
   }
 </script>
 
-<style scoped>
-/*http://csshexagon.com/*/
-.hexagon {
-  position: relative;
-  width: 225px; 
-  height: 129.90px;
-  margin: 64.95px 0;
-  border-left: solid 5px #333333;
-  border-right: solid 5px #333333;
-}
-
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 159.10px;
-  height: 159.10px;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  left: 27.9505px;
-}
-
-.hexagon:before {
-  top: -79.5495px;
-  border-top: solid 7.0711px #333333;
-  border-right: solid 7.0711px #333333;
-}
-
-.hexagon:after {
-  bottom: -79.5495px;
-  border-bottom: solid 7.0711px #333333;
-  border-left: solid 7.0711px #333333;
-}/*.hexagon {*/
-  /*position: relative;*/
-  /*width: 300px; */
-  /*height: 173.21px;*/
-  /*background-color: $body-bg;*/
-  /*margin: 86.60px 0;*/
-  /*border-left: solid 5px #333333;*/
-  /*border-right: solid 5px #333333;*/
-/*}*/
-
-/*.hexagon:before,*/
-/*.hexagon:after {*/
-  /*content: "";*/
-  /*position: absolute;*/
-  /*z-index: 1;*/
-  /*width: 212.13px;*/
-  /*height: 212.13px;*/
-  /*-webkit-transform: scaleY(0.5774) rotate(-45deg);*/
-  /*-ms-transform: scaleY(0.5774) rotate(-45deg);*/
-  /*transform: scaleY(0.5774) rotate(-45deg);*/
-  /*background-color: inherit;*/
-  /*left: 38.9340px;*/
-/*}*/
-
-/*.hexagon:before {*/
-  /*top: -106.0660px;*/
-  /*border-top: solid 7.0711px #333333;*/
-  /*border-right: solid 7.0711px #333333;*/
-/*}*/
-
-/*.hexagon:after {*/
-  /*bottom: -106.0660px;*/
-  /*border-bottom: solid 7.0711px #333333;*/
-  /*border-left: solid 7.0711px #333333;*/
-/*}*/
-</style>

@@ -4,10 +4,10 @@
 	<div class='col-auto'></div>
 	<div class='col-lg-11'>
 	  <div class="row contact">
- 	    <div class ="col-4">
+ 	    <div class ="col-4" ref="small">
 	      <hexagon></hexagon>
  	      <contact></contact>
-          <publications></publications>
+        <publications></publications>
         </div>
 	    <div class="col-8">
 	      <education></education>

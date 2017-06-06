@@ -5,35 +5,40 @@
         "company": "Ambry Genetics",
         "link": "http://www.ambrygen.com",
         "summary": "Integrated jBrowse genome vizualier into Ambry internal report generation software. Wrote custom plugins for jBrowse (using dojo javascript framework) include one to display non-continuous quantitative alignment data.  Refactored core endpoints in Perl API to speed up the processing of samples.",
-        "technologies": ["python", "flask", "perl", "dancer", "mysql", "jBrowse", "dojo"]
+        "technologies": ["python", "flask", "perl", "dancer", "mysql", "jBrowse", "dojo"],
+        "dates": "1/17 - Present"
     }, 
     {
         "title": "Software Engineer II - Project Lead BioAPI",
         "company": "Ambry Genetics",
         "link": "http://www.ambrygen.com",
         "summary": "Lead a project to integrate dna sequencing pipeline data into Ambry's web applications.  Mantain legacy Perl Dancer API and built new features in Python flask API",
-        "technologies": ["python", "flask", "perl", "dancer", "mysql", "bioinformatics"]
+        "technologies": ["python", "flask", "perl", "dancer", "mysql", "bioinformatics"],
+        "dates": "9/16 - 1/17"
     }, 
     {
         "title": "Software Engineer II",
         "company": "Ambry Genetics",
         "link": "http://www.ambrygen.com",
         "summary": "Build features requiring coordination across different applications.  Including Exome Select a feature that allows clinicians to order a la carte sequencing of of any combination of protein sequencing genes",
-        "technologies": ["elasticsearch", "elastic", "symfony2", "angular", "php", "javascript"]
+        "technologies": ["elasticsearch", "elastic", "symfony2", "angular", "php", "javascript"],
+        "dates": "6/16 - 9/16"
     }, 
     {
         "title": "Software Engineer II - Head of QA",
         "company": "Ambry Genetics",
         "link": "http://www.ambrygen.com",
         "summary": "Built an integration test framework using Node, Mocha, and Selenium.  Grew the QA team from two QAs to seven.  Established testing protocols for siz different applications. Built an interface to keep track of test cases run.",
-        "technologies": ["node.js", "mongodb", "reactjs", "php", "symfony2", "mocha", "selenium"]
+        "technologies": ["node.js", "mongodb", "reactjs", "php", "symfony2", "mocha", "selenium"],
+        "dates": "12/15 - 6/16"
     }, 
     {
         "title": "Software Engineer I",
         "company": "Ambry Genetics",
         "link": "http://www.ambrygen.com",
         "summary": "Full stack developer working in internal applications to create reports from gene sequencing data.  Built interfaces for genetic counslers to manage patient data.",
-        "technologies": ["php", "symfony2", "mysql", "jquery"]
+        "technologies": ["php", "symfony2", "mysql", "jquery"],
+        "dates": "3/15 - 12/15"
     }, 
     {
 	"title": "Software Engineer",
@@ -90,7 +95,8 @@
 	"Qpix robot",
 	"High Content Analyzer",
 	"yeast 2 hybrid"
-	]
+	],
+  "dates":"10/08 - 06/10"
     },
     {
     	"title": "Intern",
@@ -99,7 +105,8 @@
 	"summary": "Studied HSV-1 binding sites related to LAT and CTCF",	
 	"technologies": ["PCR",
 	"subcloning",
-	"DNA purificaiton"]
+	"DNA purificaiton"],
+  "dates": "11/07 - 2/08"
     },
     {
     	"title": "Intern",
@@ -110,7 +117,8 @@
 	  "western blot", 
 	  "tissue culture",
 	  "MALDI mass spec"
-	]
+	],
+  "dates": "06/05 - 08/05"
     },
     {
     	"title": "Intern",
@@ -121,7 +129,8 @@
 	  "DNA isolation",
 	  "PCR",
 	  "Electrophoresis"
-	]
+	],
+  "dates": "06/04 - 08/04"
     }
   ]
 }

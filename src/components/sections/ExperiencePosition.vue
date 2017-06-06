@@ -21,7 +21,9 @@
   <div class='row'>
     <div class="col-12">
         <ul class='list-inline technology'>
-         <li v-for='technology in position.technologies'>{{technology}}</li>
+          <technology v-for='technology in position.technologies' :technologyName=technology>
+            
+          </technology>
         </ul>
     </div>
   </div>
@@ -29,15 +31,13 @@
 </template>
 
 <script>
+  import technology from './Technology'
+
   export default {
     name: 'experiencePosition',
-    props: ['position']
+    props: ['position'],
+    components: {
+      technology
+    }
   }
 </script>
-
-<style>
-    .technology > li{
-        display: inline-block;
-        padding-left: 5px;
-    }
-</style>

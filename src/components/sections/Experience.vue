@@ -1,6 +1,7 @@
 <template>
   <resume-section title="Experience">
     <div slot="content">
+      <br/>
       <experienceSection  sectionTitle='Software Experience' v-bind:positions='positionSections.software' ></experienceSection>
       <experienceSection  sectionTitle='Research Experience' v-bind:positions='positionSections.research' ></experienceSection>
     </div>
