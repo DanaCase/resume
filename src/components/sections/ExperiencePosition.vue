@@ -10,7 +10,7 @@
   </div>
   <div class='row'>
     <div class='col-12 pull-left'>
-	{{position.company}}
+	    <a :href=position.link target="_blank">{{position.company}}</a>
     </div>
   </div>
   <div class='row'>
