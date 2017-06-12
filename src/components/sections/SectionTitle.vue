@@ -1,20 +1,13 @@
 <template>
 <div class="spacer">
     <div class="row">
-	<div class="col-xs-4">
-	    <hr/>
-	    <div class=""></div>
-	</div>
-	<div class="col-xs-4">
-		<h4 class="text-xs-center">{{title}}</h4>
-	</div>
-	<div class="col-xs-4">
-	    <hr/>
-	</div>
+		  <div class="col-12">
+		    <h4 class="text-center">{{title}}</h4>
+		  </div>
     </div>
 
     <div class="spacer-color row">
-	<div class="col-xs-12"></div>
+	<div class="col-12"></div>
     </div>
 </div>
 </template>
@@ -26,6 +19,19 @@ export default {
 </script>
 
 <style>
+
+h4 {
+  text-align: center;
+}
+
+h4::first-letter {
+  margin: 0;
+  padding:0;
+}
+h5::first-letter {
+  margin: 0;
+  padding:0;
+}
 
 .inner {
 	width: 100%;
@@ -50,4 +56,13 @@ hr {
 	border-width: 3px;
 	border-color: black;
 }
+.letter {
+  font-size: 100px;
+  line-height: 0px;
+}
+.strut {
+  display: inline-block;
+  height: 100px;
+}
+
 </style>
