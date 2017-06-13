@@ -2,21 +2,22 @@
   <div class="container">
     <div class="row justify-content-md-center">
 	<div class='col-auto'></div>
-	<div class='col-lg-11'>
-	  <div class="row contact">
- 	    <div class ="col-4" ref="small">
-	      <hexagon></hexagon>
- 	      <contact></contact>
+  <div class='col-lg-11'>
+    <div class="row contact">
+      <div class ="col-4" ref="small">
+          <hexagon></hexagon>
+          <contact></contact>
         <publications></publications>
-        </div>
-	    <div class="col-8">
-	      <education></education>
-	      <experience></experience>
-	    </div>
-	  </div>  
-	</div>
-	<div class='col-auto'></div> 
-    </div>
+        <internetPresence></internetPresence>  
+      </div>
+      <div class="col-8">
+        <education></education>
+        <experience></experience>
+      </div>
+    </div>  
+  </div>
+  <div class='col-auto'></div> 
+</div>
   </div>
 </template>
 
@@ -24,6 +25,7 @@
 
 import hexagon from './Hexagon'
 import contact from './Contact'
+import internetPresence from './sections/InternetPresence'
 
 import education from './sections/Education'
 import experience from './sections/Experience'
@@ -36,13 +38,11 @@ export default {
     contact,
     education,
     experience,
-    publications
+    publications,
+    internetPresence
   }
 }
 </script>
 
 <style>
-/*.contact {
-  position: fixed;
-}*/
 </style>

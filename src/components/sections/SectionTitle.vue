@@ -49,7 +49,6 @@ h5::first-letter {
 	background-color:#c4eeee;
 	min-height:9px;
 	margin-top: -18px;
-	//position:absolute;
 }
 
 hr {
