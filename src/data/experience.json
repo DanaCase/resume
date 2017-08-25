@@ -1,12 +1,20 @@
 {
   "software": [
     {
+        "title": "Lead Software Engineer",
+        "company": "Histowiz",
+        "link": "https://histowiz.com",
+        "summary": "Lead engineer for Lab As A Service company.  Develop and mantain web application that converts large histology scans to deep zoom web viewable images. Built internal tools for tracking order progress.",
+        "technologies": ["python", "flask", "mysql", "AWS", "OpenSlide", "OpenSeaDragon", "Google App Scripts", "Google Drive API"],
+        "dates": "7-17 - Present"
+    }, 
+    {
         "title": "Senior Software Engineer - Project Lead BioAPI",
         "company": "Ambry Genetics",
         "link": "http://www.ambrygen.com",
         "summary": "Integrated jBrowse genome vizualier into Ambry internal report generation software. Wrote custom plugins for jBrowse (using dojo javascript framework) include one to display non-continuous quantitative alignment data.  Refactored core endpoints in Perl API to speed up the processing of samples.",
         "technologies": ["python", "flask", "perl", "dancer", "mysql", "jBrowse", "dojo"],
-        "dates": "1/17 - Present"
+        "dates": "1/17 - 7/17"
     }, 
     {
         "title": "Software Engineer II - Project Lead BioAPI",
