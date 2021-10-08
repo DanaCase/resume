@@ -1,11 +1,13 @@
 <template>
     <resume-section title="Publications">
         <div slot="content">
-          <div v-for='publication in publications'>
-            <p class='publication'><a target="_blank" v-bind:href="'https://www.ncbi.nlm.nih.gov/pubmed/'+publication.pmid">{{publication.title}}</a></p>
-            <p class="journal">
-                <small>{{publication.journal}}</small>
-            </p>
+          <div class="publicationsection">
+              <div v-for='publication in publications'>
+                <p class='publication'><a target="_blank" v-bind:href="'https://www.ncbi.nlm.nih.gov/pubmed/'+publication.pmid">{{publication.title}}</a></p>
+                <p class="journal">
+                    <small>{{publication.journal}}</small>
+                </p>
+              </div>
           </div>
         </div>
     </resume-section>

@@ -1,6 +1,6 @@
 <template>
 <!--<div class='col-12 experiencePosition'>-->
-<div>  
+<div class='experiencePosition'>
 <div class='row'>
     <div class='col-7 pull-left'>
      <strong> {{title.title}} </strong>

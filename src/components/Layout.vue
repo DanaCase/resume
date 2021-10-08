@@ -3,7 +3,7 @@
     <div class="row justify-content-md-center">
 	<div class='col-auto'></div>
   <div class='col-lg-11'>
-    <div class="row contact">
+    <div class="row">
       <div class ="col-4" ref="small">
           <hexagon></hexagon>
           <contact></contact>

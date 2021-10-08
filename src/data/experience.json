@@ -19,13 +19,13 @@
                         "Hired and led a diverse team including C++ developers, javascript developers and a dev ops engineer.  Managed contractors for instrument software. Managed MIBItracker team with lead engineer and contractors.",
                         "Enforced best practices including continuous integration, code review, and agile development.",
                         "Assisted in process definition across the orginization.  Configured Jira for multiple teams."],
-                        "technologies": ["javascript", "node", "python", "django", "mysql", "google cloud", "d3"],
+                        "technologies": ["javascript", "node.js", "python", "django", "mysql", "google cloud", "d3", "angular", "react"],
                         "dates": "1/19 - 5/21"
                 },
                 {
                     "title": "Senior Software Engineer",
                     "summary": "Employee number 12 at Ionpath. Acted as a bridge between software and instrument hardware team. Recognized that our instrument (MIBIscope) software strategy would not work so successfully advocated and arcitected ground up redesign that is now in production. ",
-                    "technologies": ["javascript", "node.js", "python", "django", "mysql", "google cloud"],
+                    "technologies": ["javascript", "node.js", "python", "django", "mysql", "google cloud", "angular", "react"],
                     "dates": "3/18 - 1/19"
                 }
 
