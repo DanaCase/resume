@@ -1,144 +1,190 @@
 {
-  "software": [
-    {
-        "title": "Lead Software Engineer",
-        "company": "Histowiz",
-        "link": "https://histowiz.com",
-        "summary": "Lead engineer for Lab As A Service company.  Develop and maintain web application that converts large histology scans to deepzoom web viewable images. Built automated blur detection of slides to aid in QC. Wrote script to convert image annotations from aperio to quPath format.",
-        "technologies": ["python", "flask", "mysql", "aws", "openslide", "OpenCV", "openseadragon", "google app scripts", "google drive api"],
-        "dates": "7-17 - present"
-    }, 
-    {
-        "title": "Senior Software Engineer - Project Lead BioAPI",
-        "company": "Ambry Genetics",
-        "link": "http://www.ambrygen.com",
-        "summary": "Integrated jBrowse genome visualizer into Ambry internal report generation software. Wrote custom plugins for jBrowse (using dojo javascript framework) including one to display non-continuous quantitative alignment data (jBrowse only supports continuous quantitative data e.g. bigWig format).  Refactored core endpoints in Perl API to speed up the processing of samples.",
-        "technologies": ["python", "flask", "perl", "dancer", "mysql", "jBrowse", "dojo"],
-        "dates": "1/17 - 7/17"
-    }, 
-    {
-        "title": "Software Engineer II - Project Lead BioAPI",
-        "company": "Ambry Genetics",
-        "link": "http://www.ambrygen.com",
-        "summary": "Lead a project to integrate dna sequencing pipeline data into Ambry's web applications.  Maintain legacy Perl Dancer API and built new features in Python flask API",
-        "technologies": ["python", "flask", "perl", "dancer", "mysql", "bioinformatics"],
-        "dates": "9/16 - 1/17"
-    }, 
-    {
-        "title": "Software Engineer II",
-        "company": "Ambry Genetics",
-        "link": "http://www.ambrygen.com",
-        "summary": "Build features requiring coordination across different applications.  Including Exome Select a feature that allows clinicians to order a la carte sequencing of of any combination of protein sequencing genes",
-        "technologies": ["elasticsearch", "elastic", "symfony2", "angular", "php", "javascript"],
-        "dates": "6/16 - 9/16"
-    }, 
-    {
-        "title": "Software Engineer II - Head of QA",
-        "company": "Ambry Genetics",
-        "link": "http://www.ambrygen.com",
-        "summary": "Built an integration test framework using Node, Mocha, and Selenium.  Grew the QA team from two QAs to seven.  Established testing protocols for six different applications. Built an interface to keep track of test cases run.",
-        "technologies": ["node.js", "mongodb", "reactjs", "php", "symfony2", "mocha", "selenium"],
-        "dates": "12/15 - 6/16"
-    }, 
-    {
-        "title": "Software Engineer I",
-        "company": "Ambry Genetics",
-        "link": "http://www.ambrygen.com",
-        "summary": "Full stack developer working in internal applications to create reports from gene sequencing data.  Built interfaces for genetic counselors to manage patient data.",
-        "technologies": ["php", "symfony2", "mysql", "jquery"],
-        "dates": "3/15 - 12/15"
-    }, 
-    {
-	"title": "Software Engineer",
-	"company": "Karma",
-	"link": "http://www.havekarma.com",
-	"summary": "Built internal admin webapp, built onboarding workflow, took Karma webapp from private alpha stage to beta. Built front end unit-tests using CasperJs. Built scraper using python",
-	"technologies": ["javascript", "node.js", "backbone.js", "casper.js", "python", "mongodb"],
-    "dates": "10/14-03/15"
-    } 
-  ],
-  "research": [
-    {
-      "title":"Graduate Student",
-      "company":"Michael Teitell's lab at UCLA",
-      "link": "http://www.ucla.edu",
-      "summary": "Studied mitochondiral transplation",
-      "technologies": [
-         "Operation of photothermal nanoblade",
-         "bisulfite sequencing",
-         "mitochondrial DNA quantification with qPCR",
-         "whole genome bisulfite sequencing data analysis"],
-      "dates": "04/13-06/14"
-    },
-    {
-    	"title": "Graduate Student",
-	"company": "Kathrin Plath's lab at UCLA",
-	"link": "http://www.ucla.edu",
-	"summary": "Studied X chromosome reactivation in transcription factor mediated reprogramming",
-	"technologies": [
-	"Reprogramming of mouse fetal fibroblasts",
-	"Virus production",
-	"Infusion cloning",
-	"Immunofluorescence imaging",
-	"FISH",
-	"single molecule FISH"
-	],
-	"dates": "07/11-04/13"
-    },
-    {
-    	"title": "Rotation Student",
-	"company": "UCLA",
-	"link": "http://www.ucla.edu",
-	"summary": "Lowry lab: Assay development for Luciferase based let-7 reporter</br>Plath lab: Tested role of histone variants in reporgramming</br>Novitch lab: Development of whole embryo slice culture live imaging",
-	"dates": "09/10-07/11"
-    },
-    {
-    	"title": "Research Associate - Assay Development",
-	"company": "Evolva (Previously - Genetic Chemistry)",
-	"link":"www.evolva.com",
-	"summary": "Assay Development for high througput screening of compund enabled yeast for novel antibiotics.",
-	"technologies": ["yeast transformation",
-	"bacteria survival assays",
-	"Tecan liquid handling robot programming",
-	"Qpix robot",
-	"High Content Analyzer",
-	"yeast 2 hybrid"
-	],
-  "dates":"10/08 - 06/10"
-    },
-    {
-    	"title": "Intern",
-	"company": "Dr. Larry Feldman's lab at UCLA",
-	"link": "www.ucla.edu",
-	"summary": "Studied HSV-1 binding sites related to LAT and CTCF",	
-	"technologies": ["PCR",
-	"subcloning",
-	"DNA purification"],
-  "dates": "11/07 - 2/08"
-    },
-    {
-    	"title": "Intern",
-	"company": "OSI Pharmaceuticals",
-	"link": "https://www.us.astellas.com/",
-	"summary": "Studied the effects of TGF-&beta in conjunction with the anti-cancer drug Tarceva on non-small cell lung cancer cells",
-	"technologies": [
-	  "western blot", 
-	  "tissue culture",
-	  "MALDI mass spec"
-	],
-  "dates": "06/05 - 08/05"
-    },
-    {
-    	"title": "Intern",
-	"company": "Sangamo",
-	"link": "www.sangamo.com",
-	"summary": "High througput subcloning and gene assembly of engineered zinc finger proteins (DNA binding proteins)",
-	"technologies": [
-	  "DNA isolation",
-	  "PCR",
-	  "Electrophoresis"
-	],
-  "dates": "06/04 - 08/04"
-    }
-  ]
+    "software": [
+        {
+            "company": "Ionpath",
+            "link": "https://ionpath.com",
+            "titles": [
+                {
+                    "title": "Director of Software",
+                    "summary": ["Oversee software across Ionpath products including MIBIscope (instrument software), MIBItracker (data tracking and visualization software) and MIBIprism (data pipelining infrastructure).",
+                        "Assembled a team to scale bioinformatics services infrastructure.",
+                        "Work with customer support team to track and categorize customer feedback to select most impactful developer tasks.",
+                        "Regularly review SOPs for compliance."],
+                        "technologies": [],
+                        "dates": "5/21 - present"
+                }, 
+                {
+                    "title": "Software Engineering Manager",
+                    "summary": ["Worked closely with firmware, electrical engineering, and biologists to take MIBIscope from conception to launch.",
+                        "Hired and led a diverse team including C++ developers, javascript developers and a dev ops engineer.  Managed contractors for instrument software. Managed MIBItracker team with lead engineer and contractors.",
+                        "Enforced best practices including continuous integration, code review, and agile development.",
+                        "Assisted in process definition across the orginization.  Configured Jira for multiple teams."],
+                        "technologies": ["javascript", "node", "python", "django", "mysql", "google cloud", "d3"],
+                        "dates": "1/19 - 5/21"
+                },
+                {
+                    "title": "Senior Software Engineer",
+                    "summary": "Employee number 12 at Ionpath. Acted as a bridge between software and instrument hardware team. Recognized that our instrument (MIBIscope) software strategy would not work so successfully advocated and arcitected ground up redesign that is now in production. ",
+                    "technologies": ["javascript", "node.js", "python", "django", "mysql", "google cloud"],
+                    "dates": "3/18 - 1/19"
+                }
+
+            ]
+        },
+        {
+            "company": "Histowiz",
+            "link": "https://histowiz.com",
+            "titles": [
+                {
+                    "title": "Lead Software Engineer",
+                    "summary": "Lead engineer for Lab As A Service company.  Develop and maintain web application that converts large histology scans to deepzoom web viewable images. Built automated blur detection of slides to aid in QC. Wrote script to convert image annotations from aperio to quPath format.",
+                    "technologies": ["python", "flask", "mysql", "aws", "openslide", "OpenCV", "openseadragon", "google app scripts", "google drive api"],
+                    "dates": "7/17 - 3/18"
+                }
+            ]
+        },
+        {
+            "company": "Ambry Genetics",
+            "link": "http://www.ambrygen.com",
+            "titles": [
+                {
+                    "title": "Senior Software Engineer - Project Lead BioAPI",
+                    "summary": "Integrated jBrowse genome visualizer into Ambry internal report generation software. Wrote custom plugins for jBrowse (using dojo javascript framework) including one to display non-continuous quantitative alignment data (jBrowse only supports continuous quantitative data e.g. bigWig format).  Refactored core endpoints in Perl API to speed up the processing of samples.",
+                    "technologies": ["python", "flask", "perl", "dancer", "mysql", "jBrowse", "dojo"],
+                    "dates": "1/17 - 7/17"
+                }, 
+                {
+                    "title": "Software Engineer II - Project Lead BioAPI",
+                    "company": "Ambry Genetics",
+                    "link": "http://www.ambrygen.com",
+                    "summary": "Lead a project to integrate dna sequencing pipeline data into Ambry's web applications.  Maintain legacy Perl Dancer API and built new features in Python flask API",
+                    "technologies": ["python", "flask", "perl", "dancer", "mysql", "bioinformatics"],
+                    "dates": "9/16 - 1/17"
+                }, 
+                {
+                    "title": "Software Engineer II",
+                    "company": "Ambry Genetics",
+                    "link": "http://www.ambrygen.com",
+                    "summary": "Build features requiring coordination across different applications.  Including Exome Select a feature that allows clinicians to order a la carte sequencing of of any combination of protein sequencing genes",
+                    "technologies": ["elasticsearch", "elastic", "symfony2", "angular", "php", "javascript"],
+                    "dates": "6/16 - 9/16"
+                }, 
+                {
+                    "title": "Software Engineer II - Head of QA",
+                    "company": "Ambry Genetics",
+                    "link": "http://www.ambrygen.com",
+                    "summary": "Built an integration test framework using Node, Mocha, and Selenium.  Grew the QA team from two QAs to seven.  Established testing protocols for six different applications. Built an interface to keep track of test cases run.",
+                    "technologies": ["node.js", "mongodb", "reactjs", "php", "symfony2", "mocha", "selenium"],
+                    "dates": "12/15 - 6/16"
+                }, 
+                {
+                    "title": "Software Engineer I",
+                    "company": "Ambry Genetics",
+                    "link": "http://www.ambrygen.com",
+                    "summary": "Full stack developer working in internal applications to create reports from gene sequencing data.  Built interfaces for genetic counselors to manage patient data.",
+                    "technologies": ["php", "symfony2", "mysql", "jquery"],
+                    "dates": "3/15 - 12/15"
+                }
+            ]
+        }, 
+        {
+            "company": "Karma",
+            "link": "http://www.havekarma.com",
+            "titles": [
+                {
+                    "title": "Software Engineer",
+                    "summary": "Built internal admin webapp, built onboarding workflow, took Karma webapp from private alpha stage to beta. Built front end unit-tests using CasperJs. Built scraper using python",
+                    "technologies": ["javascript", "node.js", "backbone.js", "casper.js", "python", "mongodb"],
+                    "dates": "10/14-03/15"
+                } 
+
+            ]
+
+        }
+
+    ],
+    "research": [
+        {
+            "title":"Graduate Student",
+            "company":"Michael Teitell's lab at UCLA",
+            "link": "http://www.ucla.edu",
+            "summary": "Studied mitochondiral transplation",
+            "technologies": [
+                "Operation of photothermal nanoblade",
+                "bisulfite sequencing",
+                "mitochondrial DNA quantification with qPCR",
+                "whole genome bisulfite sequencing data analysis"],
+                "dates": "04/13-06/14"
+        },
+        {
+            "title": "Graduate Student",
+            "company": "Kathrin Plath's lab at UCLA",
+            "link": "http://www.ucla.edu",
+            "summary": "Studied X chromosome reactivation in transcription factor mediated reprogramming",
+            "technologies": [
+                "Reprogramming of mouse fetal fibroblasts",
+                "Virus production",
+                "Infusion cloning",
+                "Immunofluorescence imaging",
+                "FISH",
+                "single molecule FISH"
+            ],
+            "dates": "07/11-04/13"
+        },
+        {
+            "title": "Rotation Student",
+            "company": "UCLA",
+            "link": "http://www.ucla.edu",
+            "summary": "Lowry lab: Assay development for Luciferase based let-7 reporter</br>Plath lab: Tested role of histone variants in reporgramming</br>Novitch lab: Development of whole embryo slice culture live imaging",
+            "dates": "09/10-07/11"
+        },
+        {
+            "title": "Research Associate - Assay Development",
+            "company": "Evolva (Previously - Genetic Chemistry)",
+            "link":"www.evolva.com",
+            "summary": "Assay Development for high througput screening of compund enabled yeast for novel antibiotics.",
+            "technologies": ["yeast transformation",
+                "bacteria survival assays",
+                "Tecan liquid handling robot programming",
+                "Qpix robot",
+                "High Content Analyzer",
+                "yeast 2 hybrid"
+            ],
+            "dates":"10/08 - 06/10"
+        },
+        {
+            "title": "Intern",
+            "company": "Dr. Larry Feldman's lab at UCLA",
+            "link": "www.ucla.edu",
+            "summary": "Studied HSV-1 binding sites related to LAT and CTCF",	
+            "technologies": ["PCR",
+                "subcloning",
+                "DNA purification"],
+                "dates": "11/07 - 2/08"
+        },
+        {
+            "title": "Intern",
+            "company": "OSI Pharmaceuticals",
+            "link": "https://www.us.astellas.com/",
+            "summary": "Studied the effects of TGF-&beta in conjunction with the anti-cancer drug Tarceva on non-small cell lung cancer cells",
+            "technologies": [
+                "western blot", 
+                "tissue culture",
+                "MALDI mass spec"
+            ],
+            "dates": "06/05 - 08/05"
+        },
+        {
+            "title": "Intern",
+            "company": "Sangamo",
+            "link": "www.sangamo.com",
+            "summary": "High througput subcloning and gene assembly of engineered zinc finger proteins (DNA binding proteins)",
+            "technologies": [
+                "DNA isolation",
+                "PCR",
+                "Electrophoresis"
+            ],
+            "dates": "06/04 - 08/04"
+        }
+    ]
 }

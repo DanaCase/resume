@@ -2,7 +2,10 @@
     <resume-section title="Publications">
         <div slot="content">
           <div v-for='publication in publications'>
-            <p><a target="_blank" v-bind:href="'https://www.ncbi.nlm.nih.gov/pubmed/'+publication.pmid">{{publication.title}}</a></p>
+            <p class='publication'><a target="_blank" v-bind:href="'https://www.ncbi.nlm.nih.gov/pubmed/'+publication.pmid">{{publication.title}}</a></p>
+            <p class="journal">
+                <small>{{publication.journal}}</small>
+            </p>
           </div>
         </div>
     </resume-section>
@@ -20,3 +23,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .publication {
+    margin-bottom: 0px;
+    margin-top: 7px;
+  }
+  .journal {
+    margin-bottom: 5px;
+  }
+</style>
