@@ -7,7 +7,7 @@
   	</div>
   	<div class="row">
   	  <div class="col-12">
-  	    <p> Web Developer, Bioinformatics Programmer, Molecular Biologist </p>
+  	    <p> Software Egineer, Molecular Biologist </p>
   	  </div>
   	  </br>
   	</div>
@@ -32,6 +32,5 @@
 
 <style>
 .contact-info {
-  display: inline-block;
 }
 </style>

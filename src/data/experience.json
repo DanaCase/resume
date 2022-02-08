@@ -15,7 +15,7 @@
                 }, 
                 {
                     "title": "Software Engineering Manager",
-                    "summary": ["Worked closely with firmware, electrical engineering, and biologists to take MIBIscope from conception to launch.",
+                    "summary": ["Worked closely with firmware, electrical engineering, and biology teams to take MIBIscope from conception to launch.",
                         "Hired and led a diverse team including C++ developers, javascript developers and a dev ops engineer.  Managed contractors for instrument software. Managed MIBItracker team with lead engineer and contractors.",
                         "Enforced best practices including continuous integration, code review, and agile development.",
                         "Assisted in process definition across the orginization.  Configured Jira for multiple teams."],
@@ -24,7 +24,7 @@
                 },
                 {
                     "title": "Senior Software Engineer",
-                    "summary": "Employee number 12 at Ionpath. Acted as a bridge between software and instrument hardware team. Recognized that our instrument (MIBIscope) software strategy would not work so successfully advocated and arcitected ground up redesign that is now in production. ",
+                    "summary": "Employee number 12 at Ionpath. Acted as a bridge between software and instrument hardware team. Recognized that our instrument (MIBIscope) software strategy would not work so successfully advocated and architected ground up redesign that is now in production. ",
                     "technologies": ["javascript", "node.js", "python", "django", "mysql", "google cloud", "angular", "react"],
                     "dates": "3/18 - 1/19"
                 }
@@ -37,7 +37,7 @@
             "titles": [
                 {
                     "title": "Lead Software Engineer",
-                    "summary": "Lead engineer for Lab As A Service company.  Develop and maintain web application that converts large histology scans to deepzoom web viewable images. Built automated blur detection of slides to aid in QC. Wrote script to convert image annotations from aperio to quPath format.",
+                    "summary": "Lead engineer for Lab As a Service company.  Develop and maintain web application that converts large histology scans to deepzoom web viewable images. Wrote script to convert image annotations from aperio to quPath format.",
                     "technologies": ["python", "flask", "mysql", "aws", "openslide", "OpenCV", "openseadragon", "google app scripts", "google drive api"],
                     "dates": "7/17 - 3/18"
                 }
@@ -57,7 +57,7 @@
                     "title": "Software Engineer II - Project Lead BioAPI",
                     "company": "Ambry Genetics",
                     "link": "http://www.ambrygen.com",
-                    "summary": "Lead a project to integrate dna sequencing pipeline data into Ambry's web applications.  Maintain legacy Perl Dancer API and built new features in Python flask API",
+                    "summary": "Lead a project to integrate DNA sequencing pipeline data into Ambry's web applications.  Maintain legacy Perl Dancer API and built new features in Python flask API.",
                     "technologies": ["python", "flask", "perl", "dancer", "mysql", "bioinformatics"],
                     "dates": "9/16 - 1/17"
                 }, 
@@ -65,7 +65,7 @@
                     "title": "Software Engineer II",
                     "company": "Ambry Genetics",
                     "link": "http://www.ambrygen.com",
-                    "summary": "Build features requiring coordination across different applications.  Including Exome Select a feature that allows clinicians to order a la carte sequencing of of any combination of protein sequencing genes",
+                    "summary": "Build features requiring coordination across different applications, including Exome Select a feature that allows clinicians to order a la carte sequencing of of any combination of protein sequencing genes.",
                     "technologies": ["elasticsearch", "elastic", "symfony2", "angular", "php", "javascript"],
                     "dates": "6/16 - 9/16"
                 }, 
@@ -93,7 +93,7 @@
             "titles": [
                 {
                     "title": "Software Engineer",
-                    "summary": "Built internal admin webapp, built onboarding workflow, took Karma webapp from private alpha stage to beta. Built front end unit-tests using CasperJs. Built scraper using python",
+                    "summary": "Built internal admin webapp, built onboarding workflow, took Karma webapp from private alpha stage to beta. Built front end unit-tests using CasperJs. Built scraper using python.",
                     "technologies": ["javascript", "node.js", "backbone.js", "casper.js", "python", "mongodb"],
                     "dates": "10/14-03/15"
                 } 
@@ -120,7 +120,7 @@
             "title": "Graduate Student",
             "company": "Kathrin Plath's lab at UCLA",
             "link": "http://www.ucla.edu",
-            "summary": "Studied X chromosome reactivation in transcription factor mediated reprogramming",
+            "summary": "Studied X chromosome reactivation in transcription factor mediated reprogramming.",
             "technologies": [
                 "Reprogramming of mouse fetal fibroblasts",
                 "Virus production",
@@ -135,7 +135,7 @@
             "title": "Rotation Student",
             "company": "UCLA",
             "link": "http://www.ucla.edu",
-            "summary": "Lowry lab: Assay development for Luciferase based let-7 reporter</br>Plath lab: Tested role of histone variants in reporgramming</br>Novitch lab: Development of whole embryo slice culture live imaging",
+            "summary": "Lowry lab: Assay development for Luciferase based let-7 reporter</br>Plath lab: Tested role of histone variants in reporgramming</br>Novitch lab: Development of whole embryo slice culture live imaging.",
             "dates": "09/10-07/11"
         },
         {
@@ -156,7 +156,7 @@
             "title": "Intern",
             "company": "Dr. Larry Feldman's lab at UCLA",
             "link": "www.ucla.edu",
-            "summary": "Studied HSV-1 binding sites related to LAT and CTCF",	
+            "summary": "Studied HSV-1 binding sites related to LAT and CTCF.",	
             "technologies": ["PCR",
                 "subcloning",
                 "DNA purification"],
@@ -166,7 +166,7 @@
             "title": "Intern",
             "company": "OSI Pharmaceuticals",
             "link": "https://www.us.astellas.com/",
-            "summary": "Studied the effects of TGF-&beta in conjunction with the anti-cancer drug Tarceva on non-small cell lung cancer cells",
+            "summary": "Studied the effects of TGF-&beta in conjunction with the anti-cancer drug Tarceva on non-small cell lung cancer cells.",
             "technologies": [
                 "western blot", 
                 "tissue culture",
@@ -178,7 +178,7 @@
             "title": "Intern",
             "company": "Sangamo",
             "link": "www.sangamo.com",
-            "summary": "High througput subcloning and gene assembly of engineered zinc finger proteins (DNA binding proteins)",
+            "summary": "High througput subcloning and gene assembly of engineered zinc finger proteins (DNA binding proteins).",
             "technologies": [
                 "DNA isolation",
                 "PCR",
