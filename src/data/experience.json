@@ -1,6 +1,16 @@
 {
     "software": [
         {
+            "company": "Myriad Genetics",
+            "link": "https://myriad.com/",
+            "titles": [{
+                "title": "Director of Bioinformatics",
+                "summary": ["Manage bioinforatics platfom.  Build infrastructure to shorten path to scientific insights from sequencing data"],
+                "technologies": ["wdl", "AWS", "DNAnexus", "python"],
+                "dates": "3/22 - present"
+            }]
+        },
+        {
             "company": "Ionpath",
             "link": "https://ionpath.com",
             "titles": [
@@ -11,7 +21,7 @@
                         "Work with customer support team to track and categorize customer feedback to select most impactful developer tasks.",
                         "Regularly review SOPs for compliance."],
                         "technologies": [],
-                        "dates": "5/21 - present"
+                        "dates": "5/21 - 3/22"
                 }, 
                 {
                     "title": "Software Engineering Manager",
