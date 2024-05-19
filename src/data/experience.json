@@ -4,9 +4,12 @@
             "company": "Myriad Genetics",
             "link": "https://myriad.com/",
             "titles": [{
-                "title": "Director of Bioinformatics",
-                "summary": ["Manage bioinforatics platfom.  Build infrastructure to shorten path to scientific insights from sequencing data"],
-                "technologies": ["wdl", "AWS", "DNAnexus", "python"],
+                "title": "Director of Software Engineering, Bioinformatics",
+                "summary": ["Manage bioinformatics platfom.  Build infrastructure to shorten path to scientific insights from sequencing data.", 
+                    "Responsible for engineering best practices for scientific code, and regulatory compliance.",
+                    "Oversaw launch of new poducts and major studies including two major updates to carrier screen, MRD, and updates to the tertiary analysis pipeline"
+                ],
+                "technologies": ["wdl", "AWS", "DNAnexus", "python", "django", "flyte", "ICA", "snowflake"],
                 "dates": "3/22 - present"
             }]
         },
