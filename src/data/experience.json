@@ -12,9 +12,9 @@
                   "Lead bioinformatics software for WGS tumor-informed MRD assay and the tech transfer of acquired WGS tumor profiling assay.",
                   "Driving digital pathology initiative including building infrastructure and desiging validation for deep learning–based prognostic model.",
                   "Modernized tertiary analysis pipeline by extracting from legacy monolith into modular Flyte workflows.",
-                  "Author regulatory documentation and deliver products under CAP/CLIA, FDA, PMDA, CE mark, CLEP, and CDPH LFS compliance."
+                  "Authored regulatory documentation and deliver products under CAP/CLIA, FDA, PMDA, CE mark, CLEP, and CDPH LFS compliance."
                 ],
-                "technologies": ["wdl", "AWS", "DNAnexus", "python", "django", "flyte", "ICA", "snowflake"],
+                "technologies": ["wdl", "AWS", "DNAnexus", "python", "django", "flyte", "ICA", "snowflake", "java"],
                 "dates": "3/22 - present"
             }]
         },
