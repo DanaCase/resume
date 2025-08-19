@@ -5,9 +5,14 @@
             "link": "https://myriad.com/",
             "titles": [{
                 "title": "Director of Software Engineering, Bioinformatics",
-                "summary": ["Manage bioinformatics platfom.  Build infrastructure to shorten path to scientific insights from sequencing data.", 
-                    "Responsible for engineering best practices for scientific code, and regulatory compliance.",
-                    "Oversaw launch of new poducts and major studies including two major updates to carrier screen, MRD, and updates to the tertiary analysis pipeline"
+                "summary": [
+                  "Lead bioinformatics software organization spanning AI, bioinformatics, and regulated software development; focus on shortening the path from molecular and imaging data to clinical and scientific insights.",
+                  "Grew team from 4 to 13 engineers plus 6 contractors; established engineering best practices and delivery culture.",
+                  "Directed development and launch of 3 major gene panel test updates and the launch of new FirstGene NIPS product.",
+                  "Lead bioinformatics software for WGS tumor-informed MRD assay and the tech transfer of acquired WGS tumor profiling assay.",
+                  "Driving digital pathology initiative including building infrastructure and desiging validation for deep learning–based prognostic model.",
+                  "Modernized tertiary analysis pipeline by extracting from legacy monolith into modular Flyte workflows.",
+                  "Author regulatory documentation and deliver products under CAP/CLIA, FDA, PMDA, CE mark, CLEP, and CDPH LFS compliance."
                 ],
                 "technologies": ["wdl", "AWS", "DNAnexus", "python", "django", "flyte", "ICA", "snowflake"],
                 "dates": "3/22 - present"
@@ -25,7 +30,7 @@
                         "Regularly review SOPs for compliance."],
                         "technologies": [],
                         "dates": "5/21 - 3/22"
-                }, 
+                },
                 {
                     "title": "Software Engineering Manager",
                     "summary": ["Worked closely with firmware, electrical engineering, and biology teams to take MIBIscope from conception to launch.",
@@ -65,7 +70,7 @@
                     "summary": "Integrated jBrowse genome visualizer into Ambry internal report generation software. Wrote custom plugins for jBrowse (using dojo javascript framework) including one to display non-continuous quantitative alignment data (jBrowse only supports continuous quantitative data e.g. bigWig format).  Refactored core endpoints in Perl API to speed up the processing of samples.",
                     "technologies": ["python", "flask", "perl", "dancer", "mysql", "jBrowse", "dojo"],
                     "dates": "1/17 - 7/17"
-                }, 
+                },
                 {
                     "title": "Software Engineer II - Project Lead BioAPI",
                     "company": "Ambry Genetics",
@@ -73,7 +78,7 @@
                     "summary": "Lead a project to integrate DNA sequencing pipeline data into Ambry's web applications.  Maintain legacy Perl Dancer API and built new features in Python flask API.",
                     "technologies": ["python", "flask", "perl", "dancer", "mysql", "bioinformatics"],
                     "dates": "9/16 - 1/17"
-                }, 
+                },
                 {
                     "title": "Software Engineer II",
                     "company": "Ambry Genetics",
@@ -81,7 +86,7 @@
                     "summary": "Build features requiring coordination across different applications, including Exome Select a feature that allows clinicians to order a la carte sequencing of of any combination of protein sequencing genes.",
                     "technologies": ["elasticsearch", "elastic", "symfony2", "angular", "php", "javascript"],
                     "dates": "6/16 - 9/16"
-                }, 
+                },
                 {
                     "title": "Software Engineer II - Head of QA",
                     "company": "Ambry Genetics",
@@ -89,7 +94,7 @@
                     "summary": "Built an integration test framework using Node, Mocha, and Selenium.  Grew the QA team from two QAs to seven.  Established testing protocols for six different applications. Built an interface to keep track of test cases run.",
                     "technologies": ["node.js", "mongodb", "reactjs", "php", "symfony2", "mocha", "selenium"],
                     "dates": "12/15 - 6/16"
-                }, 
+                },
                 {
                     "title": "Software Engineer I",
                     "company": "Ambry Genetics",
@@ -99,7 +104,7 @@
                     "dates": "3/15 - 12/15"
                 }
             ]
-        }, 
+        },
         {
             "company": "Karma",
             "link": "http://www.havekarma.com",
@@ -109,7 +114,7 @@
                     "summary": "Built internal admin webapp, built onboarding workflow, took Karma webapp from private alpha stage to beta. Built front end unit-tests using CasperJs. Built scraper using python.",
                     "technologies": ["javascript", "node.js", "backbone.js", "casper.js", "python", "mongodb"],
                     "dates": "10/14-03/15"
-                } 
+                }
 
             ]
 
@@ -169,7 +174,7 @@
             "title": "Intern",
             "company": "Dr. Larry Feldman's lab at UCLA",
             "link": "www.ucla.edu",
-            "summary": "Studied HSV-1 binding sites related to LAT and CTCF.",	
+            "summary": "Studied HSV-1 binding sites related to LAT and CTCF.",
             "technologies": ["PCR",
                 "subcloning",
                 "DNA purification"],
@@ -181,7 +186,7 @@
             "link": "https://www.us.astellas.com/",
             "summary": "Studied the effects of TGF-&beta in conjunction with the anti-cancer drug Tarceva on non-small cell lung cancer cells.",
             "technologies": [
-                "western blot", 
+                "western blot",
                 "tissue culture",
                 "MALDI mass spec"
             ],
